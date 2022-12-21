@@ -24,12 +24,12 @@ mv k9s /usr/bin
 ## Check resource with k9s
 
 ```bash
-k9s   ### crrent namespace
+k9s                ### crrent namespace
 ```
 ![image](https://user-images.githubusercontent.com/58024415/208837437-19426a5c-8d92-4f61-acd6-8f9ade9eef63.png)
 
 ```bash
-k9s -A ### All namespaces
+k9s -A             ### All namespaces
 ```
 
 ## Shortcuts
@@ -40,5 +40,4 @@ shift + :         ## To find resources
 d                 ## Description of resource
 ctrl + d          ## Delete the resource
 ctrl + w          ## Control wide column
-
 ```
